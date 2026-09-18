@@ -1,0 +1,18 @@
+# KiCad lock files (created when a file is open)
+*.lck
+
+# KiCad auto-saves and backups
+*-backups/
+_autosave-*
+*_autosave.*
+*.bak
+*.bck
+*-bak
+
+# KiCad cache and temporary files
+fp-info-cache
+*.tmp
+
+# Optional: Manufacturing outputs (uncomment if you generate Gerbers here)
+# gerbers/
+# fabrication/
