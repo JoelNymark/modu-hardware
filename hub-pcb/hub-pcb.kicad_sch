@@ -8075,10 +8075,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d8f3450-425f-4a49-b4a0-d7df0145c15c")
 		(property "Reference" "D4"
-			(at 69.85 132.08 0)
+			(at 73.914 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8088,7 +8087,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 69.85 134.62 0)
+			(at 70.104 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8097,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 69.85 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10845,7 +10844,7 @@
 		(dnp no)
 		(uuid "9a724966-0677-481f-8beb-b31308e71e5b")
 		(property "Reference" "D3"
-			(at 69.85 142.748 0)
+			(at 73.914 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10855,7 +10854,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 69.85 145.288 0)
+			(at 69.596 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10864,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 69.85 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10935,7 +10934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "5.6V"
 			(at 71.12 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)

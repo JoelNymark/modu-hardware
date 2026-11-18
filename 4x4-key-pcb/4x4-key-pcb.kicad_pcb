@@ -13127,7 +13127,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "STM32G0B1CBTx"
+		(property "Value" "STM32G0B1CBT6"
 			(at 0 -5.85 135)
 			(layer "B.Fab")
 			(uuid "1c14a250-893f-4864-9a40-25b7e1586cfc")
