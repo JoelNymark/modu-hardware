@@ -4634,12 +4634,6 @@
 		(uuid "63e7cccd-58c0-492a-94a2-6c4ca789be88")
 	)
 	(junction
-		(at 54.61 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66c9d191-e4ba-4c4e-a8e5-da90fb1a9818")
-	)
-	(junction
 		(at 62.23 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4680,6 +4674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1798dbd-38fc-4248-a3b9-13362b3b88e0")
+	)
+	(junction
+		(at 22.86 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a692b4ce-01ee-4667-8786-3d8a129f0198")
 	)
 	(junction
 		(at 82.55 173.99)
@@ -4940,6 +4940,16 @@
 			(type default)
 		)
 		(uuid "1c06d724-b52e-46b9-a079-26acba212f85")
+	)
+	(wire
+		(pts
+			(xy 22.86 168.91) (xy 27.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4e2b74-42c8-4cd9-a1e9-1d64f5a62d11")
 	)
 	(wire
 		(pts
@@ -5293,7 +5303,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 168.91) (xy 62.23 168.91)
+			(xy 44.45 168.91) (xy 62.23 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5380,6 +5390,16 @@
 			(type default)
 		)
 		(uuid "5731afcd-2dc8-4e9e-88e7-a263d96f431e")
+	)
+	(wire
+		(pts
+			(xy 35.56 168.91) (xy 44.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c8ed8b-2ec0-4f10-86ef-35b0b8cf3e88")
 	)
 	(wire
 		(pts
@@ -5660,6 +5680,16 @@
 			(type default)
 		)
 		(uuid "82ec710e-f267-4216-9a91-66ac3491e2e2")
+	)
+	(wire
+		(pts
+			(xy 20.32 168.91) (xy 22.86 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83198de7-5384-4198-9a0f-b81255a94310")
 	)
 	(wire
 		(pts
@@ -6270,16 +6300,6 @@
 			(type default)
 		)
 		(uuid "f32a0a21-40ed-4117-b576-d6e5818841c1")
-	)
-	(wire
-		(pts
-			(xy 44.45 168.91) (xy 54.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40ea93d-f163-4c63-b4d2-2439be79bba9")
 	)
 	(wire
 		(pts
@@ -8280,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 158.75 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9295,7 +9315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 135.89 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9589,7 +9609,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 36.83 168.91 90)
+		(at 20.32 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9600,7 +9620,7 @@
 		(fields_autoplaced yes)
 		(uuid "205254a8-7266-4978-a80e-bd85be7934df")
 		(property "Reference" "#PWR011"
-			(at 40.64 168.91 0)
+			(at 24.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9611,7 +9631,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.02 168.9099 90)
+			(at 16.51 168.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9622,7 +9642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 168.91 0)
+			(at 20.32 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +9653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 168.91 0)
+			(at 20.32 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +9664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 168.91 0)
+			(at 20.32 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 151.13 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10440,7 +10460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 135.89 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10938,7 +10958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 143.51 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11153,6 +11173,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 22.86 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53840e40-504b-406d-b4a5-74f4b3dd4a3d")
+		(property "Reference" "D18"
+			(at 25.4 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.6V"
+			(at 25.4 173.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 22.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 22.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3e1ced0-2108-41c2-a74b-47b2ce99ccb0")
+		)
+		(pin "2"
+			(uuid "3ee73931-d1c2-41db-be3c-559d09a7a07b")
+		)
+		(instances
+			(project "4x4-key-pcb"
+				(path "/bb5a1404-715a-43b7-a44e-c9f914054dcd"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 143.51 168.91 0)
 		(unit 1)
@@ -11186,7 +11288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 143.51 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11267,7 +11369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 151.13 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11630,86 +11732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce22372-6208-47ac-b20c-1e322290e4f1")
-		(property "Reference" "#PWR033"
-			(at 54.61 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1e16eba-88dd-4d3e-ba32-2d7ab353b134")
-		)
-		(instances
-			(project "4x4-key-pcb"
-				(path "/bb5a1404-715a-43b7-a44e-c9f914054dcd"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 40.64 168.91 0)
+		(at 31.75 168.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11720,7 +11744,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d5efebe-5b9c-404e-91fa-e1e2f32cea7a")
 		(property "Reference" "D17"
-			(at 40.3225 162.56 0)
+			(at 32.0675 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11730,7 +11754,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 40.3225 165.1 0)
+			(at 32.0675 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11740,7 +11764,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_2114_3652Metric"
-			(at 40.64 168.91 0)
+			(at 31.75 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 168.91 0)
+			(at 31.75 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11762,7 +11786,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 40.64 168.91 0)
+			(at 31.75 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +11844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 151.13 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12287,6 +12311,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 22.86 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799dcb81-9636-48b1-9cf0-d04ecc8cc38c")
+		(property "Reference" "#PWR033"
+			(at 22.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6c2c98f-08ed-4de2-81a8-77b88a66f7c5")
+		)
+		(instances
+			(project "4x4-key-pcb"
+				(path "/bb5a1404-715a-43b7-a44e-c9f914054dcd"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 44.45 177.8 0)
 		(unit 1)
@@ -12479,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 158.75 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12561,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 143.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12720,7 +12822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13015,88 +13117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 54.61 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9158a438-11c8-4ade-9291-bfc0483c8274")
-		(property "Reference" "D18"
-			(at 57.15 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 57.15 173.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 54.61 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 54.61 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a029af0-9553-4fa9-a35f-d0bab81ac196")
-		)
-		(pin "2"
-			(uuid "25052969-78b6-4451-8398-663e9feea816")
-		)
-		(instances
-			(project "4x4-key-pcb"
-				(path "/bb5a1404-715a-43b7-a44e-c9f914054dcd"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 59.69 270)
 		(unit 1)
@@ -13366,7 +13386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 135.89 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13613,7 +13633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13858,7 +13878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14597,7 +14617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 151.13 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14679,7 +14699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 143.51 152.4 0)
 			(hide yes)
 			(show_name no)
